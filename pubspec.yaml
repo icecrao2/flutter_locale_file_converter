@@ -1,0 +1,28 @@
+name: excel_to_arb
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  excel: ^2.0.6  # Excel 파일을 읽기 위한 패키지
+  file_picker: ^5.2.3  # 파일 선택을 위한 패키지
+  path_provider: ^2.0.14  # 파일 저장 경로를 얻기 위한 패키지
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
